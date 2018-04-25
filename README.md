@@ -158,6 +158,7 @@ Download following scripts and copy them the the directory **ggad-1** which you 
 * [GGBootcampPubSub.py](GGBootcampPubSub.py)
 * [gg\_discovery\_api.py](gg_discovery_api.py)
 
+Instruction on How to Download Single Github File: [here](#savegithub)
 
 The script **start.sh** in the directory **ggad-1** must be modified to call **GGBootcampPubSub.py** instead of the example script from the AWS IoT Python SDK:
 	
@@ -781,6 +782,13 @@ Connect to EC2 Instance
 ### Transfer File (SCP) from MacOS / Linux
 
 	scp -i <path-to-your-private-key> <path-to-connect_device_package.zip> ec2-user@<your-ec2-public-ip>:<remote-target-folder>
+
+<a id="savegithub"></a>  
+### Save Github file
+1. Go to the file you want to download.
+2. Click it to view the contents within the GitHub UI.
+3. In the top right, **right** click the Raw button.
+4. Save as...
    	
 ### References
 
@@ -794,3 +802,5 @@ Connect to EC2 Instance
 	
 	Connecting to Your Linux Instance Using SSH 
 	Transferring Files to Linux Instances from Linux Using SCP 
+
+
