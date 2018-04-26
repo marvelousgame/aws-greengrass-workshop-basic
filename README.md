@@ -215,7 +215,7 @@ Line after modification similar to this one:
 
 Line after modification similar to this one:
 
-	python GGBootcampPubSub.py -e <YOUR_ENDPOINT>.<AWS_REGION>.amazonaws.com -r root-CA.crt -c ggad-1.cert.pem -k ggad-1.private.key --clientId ggad-2
+	python GGBootcampPubSub.py -e <YOUR_ENDPOINT>.<AWS_REGION>.amazonaws.com -r root-CA.crt -c ggad-2.cert.pem -k ggad-2.private.key --clientId ggad-2
 		
 To test if the clientId setting works go to the AWS IoT console an subscribe to 
 
