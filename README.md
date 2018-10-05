@@ -6,6 +6,7 @@ This Bootcamp will provide an understanding of the basics of AWS Greengrass. The
 
 During this workshop you will learn how to connect devices to AWS IoT and Greengrass, install Greengrass and device communication via Greengrass
 
+This workshop is based on [re:Invent session delivered by Philipp Sacha](http://aws-workshops-1589389556.eu-west-1.elb.amazonaws.com/greengrass-bootcamp/Basic/Greengrass-Bootcamp_Basic.html) and modified to demonstrate additional use cases.
 
 ## Prerequisites
 To conduct the bootcamp you will need the following tools/setup/knowledge:
